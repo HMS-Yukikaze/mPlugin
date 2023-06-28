@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Interface">
+      <UniqueIdentifier>{41cb59b0-d365-4ed8-a408-191e87bc1a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{9b1b9300-7abb-46d9-906c-9fa7660b67a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TestInterface.cpp">
+      <Filter>头文件\Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PluginBase.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TestInterface.h">
+      <Filter>头文件\Interface</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

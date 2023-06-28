@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mPlugin", "mPlugin\mPlugin.vcxproj", "{E9C007E0-39BC-4F63-8BDB-8D6BE91FC343}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interface", "D:\1_workSpace\test\Interface\Interface.vcxproj", "{BC27D111-579B-4226-8C13-6932E641316D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interface", "Interface\Interface.vcxproj", "{BC27D111-579B-4226-8C13-6932E641316D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
